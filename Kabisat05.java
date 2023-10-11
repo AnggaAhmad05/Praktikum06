@@ -8,11 +8,13 @@ public class Kabisat05 {
     System.out.println("Masukan Tahun");
     tahun=input05.nextInt();
 
-    if ((tahun % 4) == 0 && (tahun % 100) != 0) {
+    if ((tahun % 4) == 0 && (tahun % 100) != 0|| (tahun %400) ==0) {
         System.out.println("tahun Kabisat");
-
+    
     }else
         System.out.println("Bukan tahun kabisat");
+
+        
 
 
 }
