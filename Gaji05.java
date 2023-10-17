@@ -13,7 +13,7 @@ public class Gaji05 {
     System.out.println("Masukan besarnya penghasilan");
     penghasilan =sc.nextInt();
     
-    if (Kategori.equalsIgnoreCase("pekerja")) {
+    if (Kategori.equals("pekerja")) {
         if ((penghasilan) == 20000000) 
             pajak = 0.1;
             else if (penghasilan <=3000000)
@@ -26,7 +26,7 @@ public class Gaji05 {
     
     
            
-    }else if (Kategori.equalsIgnoreCase("pebisnis")) {
+    }else if (Kategori.equals("pebisnis")) {
         if (penghasilan <= 2500000) 
         pajak =0.15;
         else if(penghasilan <= 3500000) 
@@ -38,6 +38,7 @@ public class Gaji05 {
     }else
         System.out.println("Masukan kategori salah ");
 
+            
 
         }
 

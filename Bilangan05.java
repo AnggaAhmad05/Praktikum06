@@ -35,8 +35,10 @@ public class Bilangan05 {
                     System.out.println("Bilangan terbesar: " + bilangan2);
             }else{
                 System.out.println("Bilangan terbesar: " + bilangan3);
-            }        
             
+            }
+
+             
                 
             }        
 
